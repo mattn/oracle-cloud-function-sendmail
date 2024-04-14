@@ -3,7 +3,7 @@
 ## Usage
 
 ```
-echo -n '{"To": "User Name <user@example.com>", "Subject": "Hello from Oracle Cloud Function", "Body": "Hello World!"}' | fn invoke my-app sendmail
+echo -n '{"to": "User Name <user@example.com>", "subject": "Hello from Oracle Cloud Function", "body": "Hello World!"}' | fn invoke my-app sendmail
 ```
 
 ## Requirements

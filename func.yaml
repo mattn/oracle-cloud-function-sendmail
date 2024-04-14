@@ -1,6 +1,6 @@
 schema_version: 20180708
 name: sendmail
-version: 0.0.7
+version: 0.0.8
 runtime: go
 build_image: fnproject/go:1.19-dev
 run_image: fnproject/go:1.19
